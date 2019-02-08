@@ -8,16 +8,20 @@
 		
 		<title>MASH</title>
 		
-		<link href="" rel="stylesheet">
-		<link href="" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Secular+One" rel="stylesheet">
+		<link href="normalize.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
 		
 	</head>
 
 	<body>
+		
+		<div class="back">
 
 		<h1>MASH</h1>
 		
-		<p class="description">You find yourself in a vast room devoid of all but a lone computer teminal in the center. As you approach the terminal, you hear a mysterious voice that inquires if you wish to learn the path your future shall take.</p>
+			<p class="description">You find yourself in a vast room devoid of all but a lone computer teminal in the center. As you approach the terminal, you hear a mysterious voice that inquires if you wish to learn the path your future shall take.</p>
 		
 		<form action="" method="post" id="mash">
 			
@@ -27,11 +31,13 @@
 				
 			</div>
 			
-			<div class="bucket">
+		<div class="bucket">
+			
+			<div class="column">
 				
 				<div class="choice-bucket">
 					
-					<h4 class="highlight">What country will you live?</h4>
+					<h4 class="highlight">Where in the world do you want to live?</h4>
 					
 					<input name="answer_1" type="text">
 					<input name="answer_1" type="text">
@@ -50,6 +56,9 @@
 					<input name="answer_2" type="text">
 					
 				</div>
+				
+			</div>
+			<div class="column">
 				
 				<div class="choice-bucket">
 					
@@ -73,6 +82,9 @@
 					
 				</div>
 				
+			</div>
+			<div class="column">
+				
 				<div class="choice-bucket">
 					
 					<h4 class="highlight">How many children will you have?</h4>
@@ -83,8 +95,10 @@
 					<input name="answer_5" type="text">
 					
 				</div>
-				
+			
 			</div>
+				
+		</div>
 			
 			<button type="submit" class="button-submit">Generate most likely Future</button>
 			
@@ -92,6 +106,8 @@
 		
 		<script scr="">
 		</script>
+			
+		</div>
 	
 	</body>
 
