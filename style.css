@@ -2,39 +2,45 @@
 
 /* Body styling */
 body {
-  background: #713e94;
-  color: #fff;
-  font-family: Helvetica, Arial;
-  font-size: 27px;
+  /*background: #9FB5B5;*/
+	background: url(servers.jpg) no-repeat center top fixed;
+	background-size: cover;
+  color: #000000;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 28px;
   font-weight: 300;
   line-height: 1.65em;
   margin: 0 auto;
-  max-width: 960px;
+  max-width: 1080px;
   padding: 40px 10px;  
 }
 
+.back {
+	background-color: rgba(134, 178, 178, 0.5);
+	padding: 30px;
+}
 
 /* Heading Styles */
 h1 {
-  font-size: 60px;
-  color: #fff;
+  font-family: 'Secular One', sans-serif;
+  font-size: 80px;
+  color: #000000;
   text-align: center;
 }
-
 
 /* Game Directions */
 .description {
   text-align: center;
-  margin: 80px auto 40px;
+  margin: 80px;
 }
 
 
 /* Submit Button, Columns, Questions, and Inputs */
 .button-submit {
-  background: transparent;
-  border: 3px solid #fff;
-  border-radius: 6px;
-  color: #fff;
+  background: #86B2B2;
+  border: 3px solid #000000;
+  border-radius: 4px;
+  color: #000000;
   cursor: pointer; 
   display: block;
   font-size: 20px;
@@ -55,7 +61,7 @@ h1 {
   float: left;
   margin: 0;
   padding: 0;
-  width: 33.333333%;
+  width: 33.33%;
 }
 
 .choice-bucket label {
@@ -67,7 +73,7 @@ h1 {
 .choice-bucket input {
   border: 0;
   border-radius: 6px;
-  color: #713e94;
+  color: #284C4C;
   font-size: 18px;
   margin: 15px 4%;
   outline: 0;
@@ -118,3 +124,12 @@ h1 {
   opacity: 1;
   height: 100%;
 }
+
+
+
+
+/*@media screen and (max-width: 700px) {
+  .choice-bucket {   
+    display: column;
+  }
+}*/
